@@ -1,0 +1,85 @@
+#myProgress {
+    width: auto;
+    height: 30px;
+    border-radius: 12px;
+    position: relative;
+    background-color: rgb(214, 214, 214);
+    margin: 20px 80px;
+  }
+  
+  #myBar {
+    background-color: #4CAF50;
+    width: 10px;
+    height: 30px;
+    border-radius: 12px;
+    position: absolute;
+  }
+
+  button {
+    border: 2px #4CAF50 solid;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 4px 8px;
+    color: #4CAF50;
+    text-align: center;
+  }
+
+.bar-load {
+    text-align: center;
+}
+
+
+  * {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+a.Left-Header {
+    border: 2px red solid;
+    border-radius: 8px;
+    padding: 5px 10px;
+    width: 200px;
+    text-align: center;
+}
+
+p.Right-Header {
+    border: 2px red solid;
+    border-radius: 8px;
+    padding: 5px 10px;
+    width: 200px;
+    text-align: center;
+}
+
+p.Mid-Header {
+    font-size: larger;
+}
+
+.balloon {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.balloon p {
+    border: 1px red solid;
+    border-radius: 4px;
+    width: 75px
+}
+
+hr.hr-red {
+    color: red;
+}
+
+div.bar-load h1 {
+    margin-top: 80px; 
+}
